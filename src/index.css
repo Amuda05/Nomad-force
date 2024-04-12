@@ -1,0 +1,533 @@
+:root{
+    --color1:#f000;
+    --color2: #ffc107;
+    --color3: #fff;
+    --color4: #f4a261;
+    --color5:#2b2b2b;
+  }
+  @layer{
+    body{
+      font-family: "Inter", sans-serif;
+  
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  }
+  
+  video{
+    width: 100%;
+    height: 0%;
+    position: relative;
+  
+  }
+  
+  header{
+    background-color: var(--color3);
+    box-shadow: 5px 0px 5px 0px;
+  }
+  header .content{
+    position: absolute;
+    text-align: center;
+    margin-top: -30rem;
+    margin-left: 24rem;
+  }
+  header .content p span{
+    border-bottom: 3px solid var(--color2);
+  }
+  
+  header h1{
+    color: var(--color3);
+    font-size: 5rem;
+    text-transform: capitalize;
+  }
+  header p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: var(--color3);
+  }
+  video::-webkit-media-controls-fullscreen-button{
+    display: none;
+  }
+  header .page{
+    margin-left: 3rem;
+    padding: 1rem;    
+  }
+  header .page h2{
+    display: inline-block;
+    color: var(--color2);
+    font-size: 2rem;
+  }
+  header .page .nomad{
+    display: inline-block;
+    margin-left: 4rem;
+  }
+  
+  header .page  span{
+    margin-left: 3rem;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+  }
+  header .page span:hover{
+  border-bottom: 1px solid var(--color4);
+  color: var(--color4);
+  }
+  
+  main .main {
+    margin-top: 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    gap: 5rem;
+    margin-left: 2rem;
+  }
+  main .main {
+    display: flex;
+  }
+  main .main .dis p {
+  margin-top: 2rem;
+  }
+  main .main .dis h2{
+    font-size: 2.7rem;
+  }
+  main .main .next p {
+    margin-top: 5rem;
+  }
+  main .idealists{
+    display: flex;
+    margin-top: 3rem;
+  }
+  main .idealists .video-img{
+  background-color: #2b2b2b;
+    display: flex;
+    width: 50%;
+    height: 49%;
+  }
+  main .idealists .video-img img{
+  width: 20rem;
+  }
+  main .idealists .video-img .flex {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-family: "Lato";
+  }
+  main .idealists .video-img .flex #we{
+    font-size: 36px;
+    color: var(--color3);
+    line-height: 3rem;
+  }
+  main .idealists .video-img .flex #over{
+    color: grey;
+    margin-top: 2rem;
+  }
+  main .idealists .video-img .flex #read{
+  margin-top: 2rem;
+  color: var(--color3);
+  font-size: 20px;
+  }
+  
+  main .idealists .slider-img {
+    background:url('src/media-img/tn-happy-african-american-professional-manager-smiling-look-3009249059.webp');
+   width: 49.9%;
+  background-position: center;
+  background-size: cover;
+  }
+  main .slider-img{
+   position: relative;
+  }
+  main .slider-img  .nameslider{
+    position: absolute;
+    margin-top: 20.9rem;
+    margin-left: 15rem;
+    width: 27rem;
+    height: 6rem;
+    background-color: var(--color2);
+    text-align: left;
+    padding: 1.5rem;
+  }
+  main .slider-img .nameslider p{
+    margin-left: 2rem;
+    color: var(--color3);
+    margin-top: .5rem;
+  }
+  main .slider-img .nameslider #beve {
+  font-size: 24px;
+  }
+  section h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 50px;
+  }
+  
+  section  .section:hover{
+  transition: all .2s;
+  border-bottom: 3px solid var(--color2);
+  }
+  section .parent{
+    display: flex;
+  }
+  section .section{
+    background: url('/src/media-img/tn-maria-stewart-p4tj0g-amm-unsplash-693228693.webp');
+    width: 550px;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  
+  }
+  section .new {
+    border: 1px solid var(--color2);
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    padding: .7rem;
+    background-color: var(--color2);
+    color: var(--color3);
+  }
+  section .text{
+    margin-top: 17rem;
+  }
+  section .text #what{
+    font-size: 32px;
+    font-family: "Lato";
+    color: #4240407a;
+    border-bottom: 3px solid var(--color4);
+    margin-top: .1rem;
+  }
+  section .text #what:hover{
+    color: var(--color5);
+  }
+  section .text #viral{
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  
+  section .parent .grid{
+    display: grid;
+  }
+  section .parent .display{
+    display: flex;
+  }
+  section #text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  section #text #what{
+    font-size: 32px;
+    font-family: "Lato";
+    color: #4240407a;
+    border-bottom: 3px solid var(--color4);
+    margin-top: .1rem;
+  }
+  section #text #what:hover{
+    color: var(--color5);
+  }
+  section #text #viral{
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  
+  section .sections{
+    background: url('/src/media-img/tn-jean-philippe-delberghe-mmanxas1skw-unsplash-2312806046.webp');
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  
+  }
+  section #text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  
+  section .sectiona{
+    background: url('/src/media-img/tn-caroline-lm-uqved8dypum-unsplash-2088056909.webp');
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6rem;
+    margin-top: 10rem;
+  }
+  
+  section .text{
+    margin-top: 17rem;
+  }
+  section .text #what{
+    font-size: 28px;
+    color: #4240407a;
+    border-bottom: 3px solid var(--color4);
+  }
+  section .text #what:hover{
+    color: var(--color5);
+  }
+  section .text #viral{
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 2rem;
+  }
+  
+  section .parent .grid{
+    display: grid;
+  }
+  section .parent .display{
+    display: flex;
+  }
+  section #text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  section #text #wha{
+    font-size: 26px;
+    color: #4240407a;
+    border-bottom: 3px solid var(--color4);
+    margin-top: .1rem;
+    line-height: 2.5rem;
+  }
+  section #text #wha:hover{
+    color: var(--color5);
+  }
+  section #text p{
+    margin-top: 1rem;
+  }
+  section #text #vira{
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+
+  aside h2{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+  }
+  
+  aside .aside{
+    display: grid;
+    margin-left: 6rem;
+  }
+  aside .aside .Portfolio{
+    background: url("/src/media-img/visuals-y4qzw3asvqi-unsplash.jpeg");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  aside .flex{
+    display: flex;
+  }
+  aside .aside p {
+   margin-left: 3rem;
+  }
+  aside .aside #eff{
+    margin-top: 1rem;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  aside .aside .br{
+    margin-top: .5rem;
+    text-transform: capitalize;
+    color: #de3545;;
+  }
+
+  aside .aside .Portfoli{
+    background: url("/src/media-img/tyler-nix-y1drf0y3oe0-unsplash.jpeg");
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 4rem;
+    margin-top: 4rem;
+  }
+  aside .aside .b{
+    color: #19896f;
+  }
+
+  aside .aside .Portfolo{
+    background: url("/src/media-img/severin-candrian-nn3uizqmute-unsplash.jpeg");
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  aside .aside .Portfol{
+    background: url("/src/media-img/thought-catalog-gv-t-ojle4c-unsplash.jpeg");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  aside .aside .g{
+    color: #3796a1;
+  }
+  aside .aside .we{
+    margin-top: .5rem;
+    text-transform: capitalize;
+    color: var(--color2);
+  }
+  
+  .form p{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-weight:bold;
+  }
+  
+ .forms form .input {
+    display: flex;
+    margin-left: 6rem;
+ }
+.forms form .input .in {
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.forms form .input .in input {
+    width: 23rem;
+    height: 3.2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: "Lato";
+    font-size: 16px;
+}
+.forms form .textarea{
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+.forms form .textarea textarea{
+    width: 70%;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 16px;
+    outline: none;
+}
+.forms form .service{
+    margin-left: 9rem;
+}
+.forms form .service #seve{
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
+.forms form .service input{
+    margin-top: 1rem;
+    width: 2rem;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.forms form .service button{
+    width: 70%;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    background-color: var(--color4);
+    outline: none;
+    border: none;
+    color: var(--color3);
+    font-size: 1.2rem;
+}
+.forms form .service #info{
+margin-left: 20rem;
+margin-top: 1rem;
+border-bottom: 2px solid var(--color4);
+width: 12rem;
+font-size: 1.4rem;
+color: var(--color4);
+}
+.forms form .service #num {
+    margin-left: 20rem;
+    margin-top: .5rem;
+    color: #2b2b2b;
+}
+.forms form .service #pa{
+    margin-left: 22rem;
+    margin-top: .5rem;
+    color: #2b2b2b;
+}
+
+.forms form .service .app{
+    margin-left: 22rem;
+    margin-top: 1rem;
+}
+.forms form .service .app a{
+    text-decoration: none;
+}
+.forms form .service .app a img {
+    width: 20px;
+    margin-left: .4rem;
+}
+.map iframe{
+    width: 100%;
+    height: 450px;
+    margin-top: 2rem;
+    border: 0;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 40%;
+    color: var(--color3);
+}
+footer .location {
+  display: flex;
+  margin-left: 2rem;
+}
+footer .location img{
+  width: 100px;
+  margin-top: 5rem;
+}
+footer .location span{
+  margin-top: 8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+footer .text {
+  margin-left: 5rem;
+}
+footer .text p {
+  margin-top: .6rem;
+}
+footer .text #copyright{
+  font-size: 1rem;
+  margin-left: 3rem;
+  font-family: "Inter", sans-serif;
+}
+
+
+@media screen and (max-width:600px) {
+  header .content{
+    position: absolute;
+    text-align: center;
+    margin-top: -17rem;
+    margin-left: 2rem;
+  }
+  
+  header h1{
+    color: var(--color3);
+    font-size: 5rem;
+    text-transform: capitalize;
+  }
+  header p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: var(--color3);
+  }
+  
+
+
+  /* main */
+  main .main {
+    display: grid;
+  }
+
+}
