@@ -30,7 +30,7 @@ const Main2 = () => {
 
         <div className="slider-img">
             <div className="bg">
-                
+                <img src="/src/media-img/tn-happy-african-american-professional-manager-smiling-look-3009249059.webp" alt="" />
             </div>
            <div className="nameslider">
             <p id='beve'>Beverly A Richardson</p>
